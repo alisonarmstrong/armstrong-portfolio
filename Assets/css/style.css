@@ -1,0 +1,171 @@
+/* nav settings */
+.nav {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #59a0c4; 
+    color: #ffffff; 
+}
+.nav h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.nav div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.nav div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+a {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+/* header settings */
+.headerimg {
+    width: 100%;
+    margin-bottom: 25px;
+}
+h1 {
+    font-size: 28px;
+    font-family: sans-serif;
+    color: rgb(75, 72, 72);
+}
+.subtitle-box {
+    margin-bottom: 20px;
+    padding: 40px;
+    background-color: darkseagreen;
+    float: right;
+    position: absolute;
+    top: 380px;
+    right: 0;
+    height: 100px;
+    width: 400px;
+}
+/* main content settings */
+
+.row-margin {
+    margin: 36px;
+}
+.col-md-3 {
+    border-right: #59a0c4 3px solid;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color:  #59a0c4;
+}
+p{
+    font-size: 16px;
+    font-family: serif;
+}
+
+
+.contact ul li {
+    list-style-type: none;
+}
+a {
+    color:  rgb(75, 72, 72); 
+}
+
+
+.img-1{
+    width: 700px;
+    margin: 10px;
+    border: 5px solid cyan;
+}
+
+.img-2,
+.img-3,
+.img-4,
+.img-5 {    
+    margin: 10px;
+    width: 400px;
+    height: 150px;
+    border: 5px solid cyan;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.work h3, .work p {
+    font-family: sans-serif;
+    background-color: cyan;
+    width: 170px;
+    line-height: normal;
+    color: rgb(75, 72, 72);
+}
+
+
+.surf {
+    position: relative;
+}
+.surf div {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+}
+.LED {
+    position: relative;
+}
+.LED div {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+}
+.calculator {
+    position: relative;
+}
+
+.calculator div {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+}
+.pastel {
+    position: relative;
+}
+
+.pastel div {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+}
+.run {
+    position: relative;
+}
+
+.run div {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline overline;
+  }
+
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+  }
